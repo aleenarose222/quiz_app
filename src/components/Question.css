@@ -1,0 +1,38 @@
+.question-section {
+    color:black;
+    text-align:center;
+    margin-bottom: 20px;
+  }
+  
+  .options-section {
+    display: flex;
+    width:600px;
+    height:300px;
+    flex-direction: column; /* Stack options vertically */
+    align-items:center; /* Center options horizontally */
+    gap: 2px; /* Add space between the buttons */
+  }
+  
+  .option-button {
+    background-color: #a4b3be;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    width: 100%; /* Make buttons full-width */
+    max-width: 100px; /* Optional: Set a maximum width for buttons */
+  }
+  
+  .option-button:hover {
+    background-color: #0053a0;
+  }
+  
+  .option-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #0078d7;
+  }
+  
